@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="623.0" prefWidth="831.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.userController">
+   <children>
+      <Label layoutX="177.0" layoutY="46.0" text="If you have personal car please check the box">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="carCheckId" layoutX="361.0" layoutY="94.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="143.0" text="i have car">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <Label layoutX="339.0" layoutY="144.0" prefHeight="35.0" prefWidth="154.0" text="Receipt Types">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="282.0" layoutY="333.0" prefHeight="35.0" prefWidth="271.0" text="Enter the number of day">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="dayId" layoutX="339.0" layoutY="389.0" />
+      <Label layoutX="332.0" layoutY="436.0" prefHeight="35.0" prefWidth="172.0" text="Total Payment">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalCalcuId" layoutX="283.0" layoutY="497.0" prefHeight="49.0" prefWidth="271.0" textFill="#22ff00">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="dropdownId" layoutX="343.0" layoutY="200.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="mainwindow" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="604.0" prefWidth="949.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+   <children>
+      <Label layoutX="235.0" layoutY="77.0" prefHeight="37.0" prefWidth="515.0" text="Reimbursement Calculation Application">
+         <font>
+            <Font name="Microsoft YaHei Light" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="adminButton" layoutX="69.0" layoutY="216.0" mnemonicParsing="false" onAction="#adminStart" prefHeight="173.0" prefWidth="311.0" text="Admin">
+         <font>
+            <Font name="Microsoft YaHei Light" size="50.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="userButton" layoutX="557.0" layoutY="216.0" mnemonicParsing="false" onAction="#userStart" prefHeight="173.0" prefWidth="311.0" text="User">
+         <font>
+            <Font name="Microsoft YaHei Light" size="50.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+      <Label fx:id="screenlabel" layoutX="60.0" layoutY="495.0" prefHeight="58.0" prefWidth="789.0" textFill="LIME">
+         <font>
+            <Font size="40.0" />
+         </font></Label>
+      <Label fx:id="endTotal" layoutX="254.0" layoutY="429.0" prefHeight="17.0" prefWidth="478.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="509.0" prefWidth="914.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.adminController">
+   <children>
+      <Label layoutX="61.0" layoutY="92.0" prefHeight="17.0" prefWidth="194.0" text="Change Rates">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="338.0" layoutY="92.0" prefHeight="17.0" prefWidth="194.0" text="Change Receipt">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="640.0" layoutY="92.0" prefHeight="17.0" prefWidth="194.0" text="Define Limit">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="carsRate" layoutX="106.0" layoutY="185.0" />
+      <TextField fx:id="receipt1Id" layoutX="361.0" layoutY="185.0" />
+      <TextField fx:id="limitId" layoutX="640.0" layoutY="185.0" />
+      <TextField fx:id="othersRate" layoutX="106.0" layoutY="242.0" />
+      <Label layoutX="17.0" layoutY="184.0" prefHeight="27.0" prefWidth="53.0" text="Cars:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="17.0" layoutY="241.0" prefHeight="27.0" prefWidth="71.0" text="Others:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="receipt2Id" layoutX="361.0" layoutY="242.0" />
+      <TextField fx:id="receipt3Id" layoutX="361.0" layoutY="294.0" />
+      <TextField fx:id="receipt4Id" layoutX="361.0" layoutY="347.0" />
+      <Label layoutX="404.0" layoutY="157.0" prefHeight="27.0" prefWidth="53.0" text="Taxi:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="404.0" layoutY="211.0" prefHeight="27.0" prefWidth="53.0" text="Hotel:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="393.0" layoutY="268.0" prefHeight="27.0" prefWidth="85.0" text="Air Ticket">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="409.0" layoutY="319.0" prefHeight="27.0" prefWidth="53.0" text="Train">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="addReceiptButton" layoutX="388.0" layoutY="420.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="85.0" text="ADD" />
+      <Button fx:id="addRateButton" layoutX="138.0" layoutY="319.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="85.0" text="ADD" />
+      <Button fx:id="addLimitButton" layoutX="672.0" layoutY="259.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="85.0" text="ADD" />
+   </children>
+</AnchorPane>
